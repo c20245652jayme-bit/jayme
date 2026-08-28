@@ -1,21 +1,46 @@
 body {
-    background-color: rgb(146, 77, 137);
+
+    text-align: center;
+}  
+ul{
+    list-style-type: none;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin-left: 50px;
+    margin-right: 100px;
 }
 
-h2 {
-    color: rgb(235, 233, 235);
-    font-family: arial, sans-serif;
-    letter-spacing: 5px;
-    font-size: 30px;
+    nav ul{
+        display: flex;
+        gap: 20px;
+        
+    }
+    main{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        padding: 50px;
+    }
+
+
+
+main section {
+    flex: 1;
+    min-width: 280px;
+    border: solid black;
+    padding: 20px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 
 }
-
-    
-    
-
-p{color: rgb(136, 19, 19);
+#services{
+    padding: 0 50px;
 }
-.about-me {
-    color: rgb(150, 150, 14);
-}
+
 
