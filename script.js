@@ -23,6 +23,9 @@ console.log(greet("Mayong aga" , ["Arabelle" , "Bai" , "Soy" , "Erp"]));
 
 const heading = document.querySelector("h1");
 heading.textContent = "Ronel";
+heading.style.color = "purple";
+heading.style.backgroundColor= "yellow";
+heading.style.fontSize = "50px";
 console.log(heading.textContent);
 
 const contactHeading = document.querySelector("#contact h2");
